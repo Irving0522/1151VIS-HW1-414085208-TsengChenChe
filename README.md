@@ -6,9 +6,9 @@
 
 ## 1. 專案截圖
 
-![專案截圖](images/screenshot.png)
+![專案截圖](screenshot.png)
 
 滑鼠移到圖上時顯示的提示框：
 
-![hover 提示框](images/screenshot-hover.png)
+![hover 提示框](screenshot-hover.png)
 
