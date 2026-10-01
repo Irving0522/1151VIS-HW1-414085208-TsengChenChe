@@ -104,17 +104,7 @@ npm run build      # 打包成 dist/ 資料夾（選用）
 | 檢查資料是否讀對 | 按 F12 開啟 Console，可以看到最後三年的資料表 |
 | 更新資料 | 用新的 Excel 另存 CSV，覆蓋 `public/data/` 裡同名的檔案，重新整理頁面即可 |
 
-## 6. GitHub 上傳與分享流程
-
-1. **建立 repository：** 在 GitHub 點「New repository」，名稱設為 `1151VIS-HW1-學號-姓名`，Visibility 選 Public，`.gitignore` 選 HTML。
-   <!-- 截圖：images/step1-create-repo.png -->
-2. **上傳專案：** 點「uploading an existing file」（或「Add file → Upload files」），把專案資料夾裡除了 `node_modules`、`dist` 以外的所有檔案和資料夾拖進去，再按「Commit changes」。
-   <!-- 截圖：images/step2-upload.png -->
-3. **分享給老師：** 到「Settings → Collaborators → Add people」，輸入 `cchu.fju@gmail.com` 並送出邀請。
-   <!-- 截圖：images/step3-collaborator.png -->
-4. **執行與錄影：** 執行 `npm run dev` 開啟頁面，錄下關鍵畫面：開啟頁面、瀏覽兩張圖、滑鼠查看數值、按 F12 顯示 Console 的資料表。
-
-## 7. 檔案結構
+## 6. 檔案結構
 
 ```
 1151VIS-HW1-414085208-TsengChenChe/
