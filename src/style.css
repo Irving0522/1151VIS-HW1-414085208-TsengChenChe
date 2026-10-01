@@ -1,0 +1,21 @@
+:root {
+  --surface: #fcfcfb; --panel: #ffffff; --border: #e4e3df;
+  --text-1: #0b0b0b; --text-2: #52514e; --text-3: #8a8983; --grid: #ecebe7;
+  --births: #2a78d6;  --births-fill: #cde2fb;
+  --old: #eb6834;     --old-fill: #fbe1d6;
+  --threshold: #a3a29c;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #1a1a19; --panel: #222220; --border: #383835;
+    --text-1: #ffffff; --text-2: #c3c2b7; --text-3: #8f8e86; --grid: #2e2e2c;
+    --births: #3987e5;  --births-fill: #1c3a5e;
+    --old: #d95926;     --old-fill: #4a2a1c;
+    --threshold: #6b6a64;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--surface); color: var(--text-1);
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
